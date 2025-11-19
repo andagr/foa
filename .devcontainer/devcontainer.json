@@ -1,0 +1,20 @@
+{
+  "name": "Phoenix + DragonRuby Dev",
+  "dockerComposeFile": "../docker-compose.yml",
+  "service": "web",
+  "workspaceFolder": "/workspace",
+
+  "customizations": {
+    "settings": {
+        "terminal.integrated.shell.linux": "/bin/bash"
+    },
+    "extensions": [
+        "jakebecker.elixir-ls",
+        "ms-azuretools.vscode-docker"
+    ]
+  },
+
+  "forwardPorts": [
+    4000
+  ]
+}

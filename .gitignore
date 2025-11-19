@@ -1,0 +1,40 @@
+# Phoenix / Elixir build artifacts
+src/game_server/_build/
+src/game_server/deps/
+src/game_server/cover/
+src/game_server/doc/
+src/game_server/tmp/
+*.ez
+
+# Node / Assets
+src/game_server/assets/node_modules/
+src/game_server/assets/.npm
+src/game_server/assets/.yarn
+npm-debug.log
+yarn-error.log
+
+# Logs
+/log/
+*.log
+
+# System / OS
+.DS_Store
+Thumbs.db
+
+# VS Code / Editor
+.vscode/
+.idea/
+
+# Docker
+.env
+docker-compose.override.yml
+
+# DragonRuby (game_client)
+src/game_client/tmp/
+src/game_client/log/
+src/game_client/build/
+src/game_client/.dragonruby/
+
+# Nested repos (säkerhet)
+src/game_server/.git/
+src/game_client/.git/
