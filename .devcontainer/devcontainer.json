@@ -10,6 +10,7 @@
     },
     "extensions": [
         "jakebecker.elixir-ls",
+        "phoenixframework.phoenix",
         "ms-azuretools.vscode-docker"
     ]
   },
