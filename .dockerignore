@@ -1,0 +1,14 @@
+# Elixir / Phoenix
+_build/
+deps/
+erl_crash.dump
+.elixir_ls/
+
+# DragonRuby
+builds/
+metadata/
+*.bak
+
+.git/
+.idx/
+.devcontainer/
