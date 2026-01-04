@@ -1,3 +1,6 @@
+# Fabric of Adventure
+
+
 # GameServer
 
 To start your Phoenix server:
@@ -16,3 +19,27 @@ Ready to run in production? Please [check our deployment guides](https://hexdocs
 * Docs: https://hexdocs.pm/phoenix
 * Forum: https://elixirforum.com/c/phoenix-forum
 * Source: https://github.com/phoenixframework/phoenix
+
+## Project Structure
+
+Here is an overview of the typical folders in this Elixir/Phoenix application:
+
+### 📂 Core Folders
+
+*   **`assets/`**: Frontend source code (JavaScript, CSS, fonts, images). Processed by tools like esbuild/tailwind.
+*   **`lib/`**: The heart of the application.
+    *   **`lib/game_server`**: Business logic, contexts, and schemas (backend logic).
+    *   **`lib/game_server_web`**: Web-facing code (Controllers, LiveViews, Templates, Router).
+*   **`config/`**: Configuration files (`config.exs`, `dev.exs`, `runtime.exs`, etc.).
+*   **`priv/`**: Resources needed at runtime (database migrations in `repo/`, compiled assets in `static/`).
+*   **`test/`**: Automated tests, mirroring the `lib/` structure.
+
+### ⚙️ System & Build Folders
+
+*   **`deps/`**: Project dependencies managed by Mix.
+*   **`_build/`**: Compiled artifacts and build output.
+
+### 📄 Key Files
+
+*   **`mix.exs`**: Project definition, dependencies, and versioning.
+*   **`mix.lock`**: Exact dependency versions lockfile.
