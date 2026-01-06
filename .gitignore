@@ -33,8 +33,9 @@ docker-compose.override.yml
 src/game_client/tmp/
 src/game_client/log/
 src/game_client/build/
-src/game_client/.dragonruby/
+src/game_client/dragonruby
+src/game_client/dragonruby-publish
 
-# Nested repos (säkerhet)
+# Nested repos (security)
 src/game_server/.git/
 src/game_client/.git/
