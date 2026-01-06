@@ -1,5 +1,24 @@
 # Fabric of Adventure
 
+## Music
+Alkakrab 
+- https://alkakrab.itch.io/
+- https://alkakrab.itch.io/fantasy-rpg-soundtrack-music
+- https://alkakrab.itch.io/free-25-fantasy-rpg-game-tracks-no-copyright-vol-2
+- https://alkakrab.itch.io/free-25-fantasy-rpg-game-tracks
+
+## Sound effects
+Leohpaz
+- https://leohpaz.itch.io/
+- https://leohpaz.itch.io/rpg-essentials-sfx-free
+
+## Graphics
+Kenmi (Cute Fantasy)
+- https://kenmi.itch.io/
+- https://kenmi-art.itch.io/cute-fantasy-ui
+- https://kenmi-art.itch.io/cute-fantasy-characters-16x16-top-down-pixel-art-asset-pack
+- https://kenmi-art.itch.io/cute-fantasy-rpg
+- https://kenmi-art.itch.io/cute-fantasy-dungeon-16x16-top-down
 
 # GameServer
 
