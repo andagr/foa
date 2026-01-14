@@ -1,0 +1,19 @@
+{
+  "folders": [
+	{ "path": "." },
+    { "path": "src/game_client" },
+    { "path": "src/game_server" }
+  ],
+  "settings": {
+    "rubyLsp.rubyVersionManager": { "identifier": "mise" },
+    "mise.enable": true
+  },
+  "extensions": {
+    "recommendations": [
+      "shopify.ruby-lsp",      // Ruby Language Server
+      "jakebecker.elixir-ls",  // Elixir Language Server
+      "hverlin.mise-vscode",   // Mise integration
+      //"koichisasada.vscode-rdbg" // Ruby Debugger (optional but helpful)
+    ]
+  }
+}

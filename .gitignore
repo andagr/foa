@@ -31,10 +31,11 @@ docker-compose.override.yml
 
 # DragonRuby (game_client)
 src/game_client/tmp/
-src/game_client/log/
+src/game_client/logs/
 src/game_client/build/
 src/game_client/dragonruby
 src/game_client/dragonruby-publish
+src/game_client/mygame/errors/
 
 # Nested repos (security)
 src/game_server/.git/
