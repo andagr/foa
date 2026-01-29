@@ -30,12 +30,28 @@ Thumbs.db
 docker-compose.override.yml
 
 # DragonRuby (game_client)
+src/game_client/mygame/errors/
+src/game_client/.dragonruby/
+src/game_client/docs
 src/game_client/tmp/
 src/game_client/logs/
 src/game_client/build/
 src/game_client/dragonruby
 src/game_client/dragonruby-publish
-src/game_client/mygame/errors/
+src/game_client/dragonruby.png
+src/game_client/font.ttf
+src/game_client/builds/
+src/game_client/VERSION.txt
+src/game_client/CHANGELOG-CURR.txt
+src/game_client/CHANGELOG-PREV.txt
+src/game_client/console-logo.png
+src/game_client/ctags-emacs
+src/game_client/ctags-vim
+src/game_client/dragonruby-controller.png
+src/game_client/dragonruby-httpd
+src/game_client/eula.txt
+src/game_client/open-source-licenses.txt
+src/game_client/README.txt
 
 # Nested repos (security)
 src/game_server/.git/
