@@ -53,6 +53,9 @@ class Outputs
 end
 
 class Inputs
+  # High-level directional inputs (keyboard + controller)
+  attr_reader :left, :right, :up, :down
+  
   # @return [Keyboard]
   attr_reader :keyboard
   # @return [Mouse]

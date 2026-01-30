@@ -1,16 +1,12 @@
-def tick args
-  if args.tick_count == 0
-    # On the web, 'args.gtk.platform' usually returns 'Web' or similar
-    puts "Running on: #{args.gtk.platform}"
-    
-    # This check specifically looks for the JS environment
-    if args.gtk.platform == "Web" # Or sometimes check for 'Emscripten'
-      puts "WebSockets are available via the Browser!"
-    else
-      puts "Running on Desktop: WebSockets disabled in Standard Tier."
-    end
-  end
+require 'app/network_service.rb'
+require 'app/player.rb'
 
-  args.outputs.labels << [120, 120, "Platform: #{args.gtk.platform}"]
-  args.outputs.labels << [120, 100, "Go to http://localhost:9001 in your browser!"]
+def tick args
+  args.state.network ||= NetworkService.new
+  args.state.player ||= Player.new
+
+  args.state.player.handle_input(args, args.state.network)
+  args.state.player.draw(args)
+  
+  args.outputs.labels << [30, 700, "Mock mode. Use arrow keys to move!"]
 end
