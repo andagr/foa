@@ -9,10 +9,14 @@ class Player
     @speed = 5
   end
 
+  def rect
+    { x: @x, y: @y, w: @w, h: @h }
+  end
+
   def draw(args)
     args.outputs.solids << {
-      x: @x - (@w / 2),
-      y: @y - (@h / 2),
+      x: @x,
+      y: @y,
       w: @w,
       h: @h,
       r: 0, g: 0, b: 255

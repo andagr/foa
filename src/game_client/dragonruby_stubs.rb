@@ -33,7 +33,7 @@ end
 
 class State
   # Example: Add your game-specific variables here for autocomplete
-  attr_accessor :player, :score, :level_name
+  attr_accessor :network, :player, :room
 end
 
 class Outputs
