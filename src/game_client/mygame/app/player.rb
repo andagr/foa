@@ -14,13 +14,27 @@ class Player
   end
 
   def draw(args)
-    args.outputs.solids << {
-      x: @x,
-      y: @y,
-      w: @w,
-      h: @h,
-      r: 0, g: 0, b: 255
+    # Define how big the sprite should look on screen
+    visual_w = 96
+    visual_h = 96
+    
+    # Calculate offset so the sprite is centered over the hitbox
+    offset_x = (visual_w - @w) / 2
+    offset_y = (visual_h - @h) / 2
+
+    args.outputs.sprites << {
+      x: @x - offset_x,
+      y: @y - offset_y,
+      w: visual_w,
+      h: visual_w,
+      path: 'sprites/characters/knights/swordman.png',
+      tile_x: 0,
+      tile_y: 8,
+      tile_w: 48,
+      tile_h: 48
     }
+
+    args.outputs.borders << { x: @x, y: @y, w: @w, h: @h, r: 255, g: 0, b: 0 }
   end
 
   def handle_input(args, network)
